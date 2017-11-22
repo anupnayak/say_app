@@ -11,5 +11,16 @@ module SayApp
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
+
+    ActionMailer::Base.smtp_settings = {
+        :address => 'smtp.gmail.com',
+        :domain => 'mail.gmail.com',
+        :port => 587,
+        :username => "godwin.mr.cool@gmail.com",
+        :password => 'Odisha@1991',
+        :authentication => 'login',
+        :enable_starttls_auto => true
+    }
+
   end
 end
