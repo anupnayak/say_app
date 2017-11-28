@@ -22,3 +22,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+#Style - https://bootsnipp.com/snippets/featured/easy-log-in-form
